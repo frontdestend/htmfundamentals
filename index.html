@@ -18,6 +18,9 @@
 <img src="https://www.realestate.com.au/assets/img/buy/1489020234756.fa6f06372c57390080c2d30409f9e16c.png" alt="">
 <p>Create your best-ever home in style right here, right now. We bring you lifestyle advice, inspiration and ideas from some of Australia's leading creatives and experts on everything from renovating, DIY and outdoor living to decorating and interior design. Home is where the heart is.</p>
 <a href="#">click here</a>
+<aside>
+   
+</aside>
 </article>
 <article class="wrapper">
     <h1>
@@ -40,5 +43,12 @@
 
         </footer>
     </main>
+    <script>
+     // Create shadow DOM
+  var shadow = document.querySelector('aside').attachShadow({mode: 'open'});
+  // Add some text to shadow DOM
+  shadow.innerHTML = '<h1>test heading</h1><p>testinhg paragraph</p>';
+ 
+    </script>
 </body>
 </html>
